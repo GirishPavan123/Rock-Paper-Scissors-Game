@@ -1,0 +1,79 @@
+h3{
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+#rock{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid white;
+    transition: opacity 0.1s;
+    margin-right: 10px;
+}
+#rock:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#paper{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid white;
+    margin-right: 10px;
+}
+#paper:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#scissor{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 3px solid white;
+}
+#scissor:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    color: white;
+    display: inline-block;
+    margin: 10px;
+}
+.emoji{
+    font-size: xx-large;
+}
+#reset{
+    border-radius: 10px;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: orange;
+    border: 2px solid gold;
+    color: black;
+    width: 100px;
+    height: auto;
+    transition: opacity 0.1s;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+#reset:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.container{
+    width: 500px;
+    height: 250px;
+}

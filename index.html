@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculating</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h3> Rock Paper Scissors </h3>
+            <div>
+                <button onclick="calcResult('Rock');" id="rock" class="emoji">✊</button>
+                <button onclick="calcResult('Paper');" id="paper" class="emoji">🤚</button>
+                <button onclick="calcResult('Scissor');" id="scissor" class="emoji">✌️</button>
+            </div>
+            <div>
+                <p> Wins: <span id="win-count">0</span></p>
+                <p> Loses: <span id="lose-count">0</span></p>
+                <p> Draws: <span id="draw-count">0</span></p>
+            </div>
+            <button onclick="resetScores();" id="reset">Reset Score</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
